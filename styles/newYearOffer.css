@@ -321,3 +321,67 @@
     height: 450px;
     margin: 5px;
 }
+
+
+/* newslater section */
+
+.newletter{
+    background: rgba(255, 0, 0, 0.05);
+    margin: 120px auto;
+    width: 1320px;
+    height: 616px;
+    border-radius: 16px;
+    padding: 80px 212px;
+    text-align: center;
+}
+
+.n-image{
+    margin-bottom: 40px;
+}
+
+.n-content h1{
+    font-size: 48px;
+    font-weight: 800;
+    padding-bottom: 22px;
+}
+
+.n-content p{
+    margin-bottom: 40px;
+}
+
+.s-body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.subscribe-box{
+    display: flex;
+    width: 500px;
+    height: 50px;
+    border-radius: 99px;
+    overflow: hidden;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    background-color: white;
+}
+
+.subscribe-box input{
+    flex: 1;
+    padding: 0 20px;
+    border: none;
+    outline: none;
+    font-size: 20px;
+}
+
+.subscribe-box button{
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 0 35px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.subscribe-box button:hover{
+    background-color:  darkred;
+}
