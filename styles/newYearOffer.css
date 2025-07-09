@@ -117,8 +117,13 @@
     padding: 10px 40px;
     border: none;
     border-radius: 5px;
+    cursor: pointer;
 }
 
+.left-text button:hover{
+    background: gray;
+    color: #070211;
+}
 /* event time */
 
 .event-time{
@@ -154,7 +159,12 @@
     border: none;
     border-radius: 8px;
     margin-top: 48px;
+    cursor: pointer;
 }
+
+.party button:hover{
+    background: darkred;
+} 
 
 
 /* best offer */
